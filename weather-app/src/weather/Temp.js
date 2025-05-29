@@ -41,7 +41,8 @@ const Temp = () => {
   // page ko refreah kiey bageer 1st time lahore bu default chall jae...
   useEffect(() => {
     CallData();
-  }, []);
+  }, [CallData]);
+  
 
   return (
     <>
