@@ -1,0 +1,195 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Search Section */
+.sec-1 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 30px 10px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.put {
+  padding: 15px 20px;
+  width: 250px;
+  max-width: 100%;
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid rgb(21, 128, 222);
+  border-radius: 6px 0 0 6px;
+}
+.btn {
+  padding: 15px 12px;
+  background-color: rgb(21, 128, 222);
+  border: none;
+  color: rgb(18, 18, 97);
+  font-weight: bold;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Main Box */
+.outer-box {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.inner-box {
+  width: 100%;
+  max-width: 700px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 2px 0 20px 5px rgb(154, 149, 149);
+  margin: 20px auto;
+}
+
+/* Upper Section */
+.uper-flor {
+  background-color: rgb(187, 187, 187);
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  padding: 30px 10px;
+}
+.uper-flor .wi {
+  font-size: 80px;
+}
+
+/* Middle Section */
+.disply-felx {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.left-portion,
+.rigth-portion {
+  flex: 1 1 300px;
+  min-width: 50%;
+  height: auto;
+}
+.left-portion {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.tem h1 {
+  color: white;
+  font-size: 40px;
+}
+.content h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+}
+.content p {
+  color: white;
+  font-size: 18px;
+}
+.rigth-portion {
+  background-color: rgb(61, 206, 206);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.date-time h1 {
+  color: white;
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+/* Lower Section */
+.lowe-flor {
+  padding: 20px 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.col {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  margin: 10px 0;
+}
+.col .wi {
+  color: rgb(19, 188, 188);
+  font-size: 25px;
+  margin-right: 10px;
+}
+.pra p {
+  color: rgb(36, 36, 36);
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .put, .btn {
+    width: 100%;
+    border-radius: 6px;
+    margin: 5px 0;
+  }
+
+  .left-portion, .rigth-portion {
+    min-width: 100%;
+    padding: 20px 10px;
+  }
+
+  .tem h1 {
+    font-size: 35px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .date-time h1 {
+    font-size: 18px;
+  }
+
+  .col {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
